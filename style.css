@@ -1,0 +1,92 @@
+body {
+    color: #fff;
+    background: #202C36;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    font: 400 1rem/1.5 "Martel", arial, sans-serif;
+}
+
+h1 {
+    font: 600 2rem/1.2 "Prompt", serif;
+}
+
+.page--header {
+    padding: 1.5rem 3.75rem;
+    background: #2B3844;
+    box-shadow: 0px 2px 4px 0px #0000000E;
+}
+
+.app--core {
+    padding: 0px 3.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.container--cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4.625rem;
+}
+
+.card--pais {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 19rem;
+    border-radius: 5px;
+    background: #2B3844;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.img--pais {
+    flex: 0 0;
+}
+
+.card--content {
+    flex: 1 0;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+}
+
+.nome--pais {
+    margin-bottom: 1rem;
+}
+
+#pesquisa--pais {
+    font-family: "Prompt";
+    padding: 1.125rem 2rem;
+    flex: 1 1;
+    font-size: 1.125rem;
+}
+
+.input--wrapper {
+    background-color: hsl(209, 23%, 28%);
+    width: 480px;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    border-radius: 14px 14px 14px 14px;
+    overflow: hidden;
+}
+
+.input--wrapper i {
+    padding-left: 32px;
+    background-color: hsl(209, 23%, 28%);
+    flex: 0 0;
+    font-size: 1.5rem;
+}
+
+span {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+i {
+    opacity: 0.75;
+}
